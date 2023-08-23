@@ -68,7 +68,7 @@ Instructor's Office hours: TU and TH 16:40 - 17:40 at B424
 
 TA office hours: TBA
 
-Final: Dec. 11 (Monday) 9h - 11h30, at B203
+Final: Dec. 11 (Monday) 9:00 - 11:30, at B203
 
 
 
