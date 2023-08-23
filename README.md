@@ -59,9 +59,9 @@ TBA
 
 # Overall Course Schedule
 
-Lectures: TU, TH   9:00 AM - 10:20 AM
+Lectures: TU, TH   9:00 AM - 10:20 AM, at B203
 
-Recitation: TH  2:00 PM - 2:55 PM
+Recitation: TH  2:00 PM - 2:55 PM, at B203
 
 
 Instructor's Office hours: TBA
