@@ -75,10 +75,10 @@ Final: Dec. 11 (Monday) 9:00 - 11:30, at B203
 
 # Grading: Numerical Scores
 
--   Quiz (in-class): 10%
--   Homework (take-home): 10% 
--   Midterm1: 25%
--   Midterm2: 25%
+-   Quiz (in-class): 15%
+-   Homework (take-home): 15% 
+-   Midterm1: 20%
+-   Midterm2: 20%
 -   Final: 30%
 -   Students with regular participation and constructive feedback get 0.5% or 1% bonus
 
@@ -86,7 +86,7 @@ Namely, the numerical grade for the course will be calculated as:
 
 ```
 def numerical_grade(Quiz, Homework, Midterm1, Midterm2, Final, Bonus):
-    return 0.10 * Quiz + 0.10 * Homework + 0.25 * Midterm1 + 0.25 * Midterm2 + 0.30 * Final + Bonus
+    return 0.15 * Quiz + 0.15 * Homework + 0.20 * Midterm1 + 0.20 * Midterm2 + 0.30 * Final + Bonus
 ```
 
 
