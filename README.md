@@ -53,11 +53,11 @@ Zhoulai Fu \<zhoulai dot fu at sunykorea.ac.kr\>  or  \<zhoulai dot fu at stonyb
 
 # Teaching Assistants
 
-TBA
+Ha Yeonkyung \<ha.yeonkyung@stonybrook.edu\>
 
 <a id="orga68a99f"></a>
 
-# Overall Course Schedule
+# Overall Schedule
 
 Lectures: TU, TH   9:00  - 10:20, at B203
 
