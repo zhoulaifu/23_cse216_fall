@@ -52,15 +52,13 @@ Zhoulai Fu \<zhoulai dot fu at sunykorea.ac.kr\>  or  \<zhoulai dot fu at stonyb
 Ha Yeonkyung \<ha.yeonkyung@stonybrook.edu\>
 
 
-# Overall Schedule
+# Overall Schedule (All time is Korean time)
 
 Lectures: TU, TH   9:00  - 10:20, at B203
 
 Recitation: TH  14:00  - 14:55, at B203
 
-Quiz is due at the end of the recitation
-
-Homework is due: 23:59 (included) Thursday
+For most recitations, we may have a quiz or homework announcement. Quiz is due by the end of the recitation. Homework is due by next Thursday 12h59 (included). 
 
 Instructor's Office hours: TU and TH 16:40 - 17:40 at B424
 
