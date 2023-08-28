@@ -58,6 +58,9 @@ Lectures: TU, TH   9:00  - 10:20, at B203
 
 Recitation: TH  14:00  - 14:55, at B203
 
+Quiz is due at the end of the recitation
+
+Homework is due: 23:59 (included) Thursday
 
 Instructor's Office hours: TU and TH 16:40 - 17:40 at B424
 
