@@ -20,14 +20,12 @@ This repository is publicly accessible and hosts  courseware that will be increm
 -   An understanding of functional techniques to identify, formulate and solve problems.
 
 
-<a id="org44a5716"></a>
 
 # Prerequisites
 
 C or higher in CSE 214; CSE major
 
 
-<a id="org4bd39ff"></a>
 
 # Reference Book(s) and additional reading
 
@@ -42,31 +40,31 @@ Python tutorial: <https://docs.python.org/3/tutorial/>
 OCaml learning material: <https://ocaml.org/learn/>
 
 
-<a id="org022f9a2"></a>
 
 # Instructor
 
 Zhoulai Fu \<zhoulai dot fu at sunykorea.ac.kr\>  or  \<zhoulai dot fu at stonybrook.edu\>
 
 
-<a id="orgb5f4b37"></a>
 
 # Teaching Assistants
 
-TBA
-
-<a id="orga68a99f"></a>
-
-# Overall Course Schedule
-
-Lectures: TU, TH   9:00 AM - 10:20 AM
-
-Recitation: TH  2:00 PM - 2:55 PM
+Ha Yeonkyung \<ha.yeonkyung@stonybrook.edu\>
 
 
-Instructor's Office hours: TBA
+# Overall Schedule (All time is Korean time)
+
+Lectures: TU, TH   9:00  - 10:20, at B203
+
+Recitation: TH  14:00  - 14:55, at B203
+
+For most recitations, we may have a quiz or homework announcement. Quiz is due by the end of the recitation. Homework is due by next Thursday 12h59 (included). 
+
+Instructor's Office hours: TU and TH 16:40 - 17:40 at B424
 
 TA office hours: TBA
+
+Final: Dec. 11 (Monday) 9:00 - 11:30, at B203
 
 
 
@@ -75,31 +73,77 @@ TA office hours: TBA
 <https://stonybrook.zoom.us/j/99671076796?pwd=TGFuZ1lzSXpnSWlpMDB2a2tCRmozUT09>
 
 
-<a id="org9f0ab89"></a>
 
 # Grading: Numerical Scores
 
--   Homework: 20%
--   Midterm1: 25%
--   Midterm2: 25%
+-   Quiz (in-class): 15%
+-   Homework (take-home): 15% 
+-   Midterm1: 20%
+-   Midterm2: 20%
 -   Final: 30%
 -   Students with regular participation and constructive feedback get 0.5% or 1% bonus
 
 Namely, the numerical grade for the course will be calculated as:
 
 ```
-def numerical_grade(Homework, Midterm1, Midterm2, Final, Bonus):
-    return 0.20 * Homework + 0.25 * Midterm1 + 0.25 * Midterm2 + 0.30 * Final + Bonus
+def numerical_grade(Quiz, Homework, Midterm1, Midterm2, Final, Bonus):
+    return 0.15 * Quiz + 0.15 * Homework + 0.20 * Midterm1 + 0.20 * Midterm2 + 0.30 * Final + Bonus
 ```
 
 
 
 
+# Grading: Letter scores 
 
 
-# Grading: Letter Scores
+### The following algorithm  guarantees that (a) around 50% of students get an A or A-, and (b) students will earn a grade higher than or equivalent to what they would receive with a traditional absolute grading system, barring infrequent boundary situations.
 
-TBA
+
+We initiate the grading process by calculating numerical scores for each student and the median of these scores. We then define a cutoff score, denoted by 'c',  which is the minimum of the median score and 90. Letter grades will be allocated based on the following ranges:
+
+- A: Greater than 0.7*c + 30 up to 100
+- A-: Greater than 'c' up to 0.7*c + 30
+- B+: Greater than 'c - 4' up to 'c'
+- B: Greater than 'c - 7' up to 'c - 4'
+- B-: Greater than 'c - 10' up to 'c - 7'
+- C+: Greater than 'c - 14' up to 'c - 10'
+- C: Greater than 'c - 17' up to 'c - 14'
+- C-: Greater than 'c - 20' up to 'c - 17'
+- D+: Greater than 'c - 24' up to 'c - 20'
+- D: Greater than 'c - 27' up to 'c - 24'
+- D-: Greater than 'c - 30' up to 'c - 27'
+- F: Scores equal to or less than 'c - 30'
+
+Please note that the boundaries for the letter grades are exclusive on the lower end and inclusive on the higher end.
+
+Let's say that the cutoff value 'c' is 85. 
+
+For a letter grade 'B+', the score range is greater than 'c - 4' (85 - 4 = 81) and up to 'c' (85). This means that if a student's score is 81.5, their letter grade would be 'B+'. However, if their score is exactly 81, they would not receive a 'B+', but would instead fall into the B range.
+
+The following Python code implements this grading scheme
+
+```
+def get_letter_grade(score, c):
+    boundaries = {
+        'A':  0.7*c + 30,
+        'A-': c,
+        'B+': c - 4,
+        'B':  c - 7,
+        'B-': c - 10,
+        'C+': c - 14,
+        'C':  c - 17,
+        'C-': c - 20,
+        'D+': c - 24,
+        'D':  c - 27,
+        'D-': c - 30,
+    }
+    
+    for grade, boundary in boundaries.items():
+        if score > boundary:
+            return grade
+    return 'F'
+```
+
 
 # Disability Support Services (DSS) Statement
 
