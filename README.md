@@ -1,5 +1,5 @@
 
-# CSE216 : Programming Abstractions (State University of New York, Korea, Fall 2023)
+# CSE216: Programming Abstractions (State University of New York, Korea, Fall 2023)
 
 # Course overview
 
