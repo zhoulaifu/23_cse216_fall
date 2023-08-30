@@ -6,7 +6,7 @@
 This course is  offered by the CS Department of SUNY Korea. In this course, we will learn
 Intermediate-level programming concepts and paradigms, including functional programming, object-orientation, basics of type systems, memory management, program and data abstractions, parameter passing and modularity.
 
-This repository is publicly accessible and hosts  courseware that will be incrementally added along the semester.  We will adapt the courseware from the ones used at SUNY Korea and Stony Brook University in previous years. 
+This repository is publicly accessible and hosts courseware that will be incrementally added along the semester.  We will adapt the courseware from the ones used at SUNY Korea and Stony Brook University in previous years. 
 
 
 <a id="orgef64ebe"></a>
@@ -62,7 +62,7 @@ For most recitations, we may have a quiz or homework announcement. Quiz is due b
 
 Instructor's Office hours: TU and TH 16:40 - 17:40 at B424
 
-TA office hours: TBA
+TA office hours:  MO and WE from 10:20 to 12:00 and from 12:50 to 15:25 at CS Lobby
 
 Final: Dec. 11 (Monday) 9:00 - 11:30, at B203
 
