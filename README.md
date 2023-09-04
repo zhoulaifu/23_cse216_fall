@@ -60,7 +60,7 @@ Recitation: TH  14:00  - 14:55, at B203
 
 For most recitations, we may have a quiz or homework announcement. Quiz is due by the end of the recitation. Homework is due by next Thursday 12h59 (included). 
 
-Instructor's Office hours: TU and TH 16:40 - 17:40 at B424
+Instructor's Office hours: TU and TH 10:25 - 11:25 at B424
 
 TA office hours:  MO and WE from 10:20 to 12:00 and from 12:50 to 15:25 at CS Lobby
 
