@@ -1,8 +1,8 @@
 (* Guideline
 
-Homework for week 09. Due: 11:59 pm on Thursday, May 4th, 2023. 
+Homework for week 09. Due: 11:59 pm on Thursday, November 2nd, 2023. 
  
-Fill in all the  ' failwith "Not Implemented" ' parts of this file, "09.ml", and then submit it on Brightspace. 
+Fill in all the  'failwith "Not Implemented" ' parts of this file, "09.ml", and then submit it on Brightspace. 
 
 
 Special grading criteria:
