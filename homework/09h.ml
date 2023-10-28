@@ -23,7 +23,7 @@ let seconds_since_midnight h m s =
     failwith "Not Implemented"
 
 (* In the following, we define a type, `time`, which holds the hour, minute, and second as separate values. Do not change this type. *)
-type time = {hour: int; minute:int; second:int}
+type time = {hour: int; minute: int; second: int}
 
 (* Exercise 2 Points = 20.
 
@@ -65,7 +65,7 @@ let tick t =
 Write a function `all_positive`, of type int list -> bool, which returns `true` if all the integers in the input list are positive.
 
 *)
-let rec all_positive = 
+let rec all_positive lst = 
     failwith "Not implemented"
 
 
