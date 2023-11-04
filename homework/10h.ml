@@ -68,7 +68,7 @@ let rec print (e:exp):string = failwith "Not Implemented"
 Exercise 4 (Points = 20)
 Write the function is_sorted: int list -> bool to determine if the integers in an int lst are in sorted in ascending order.
 
-Important note: The solution provided during the class has a subtal bug unfortunately. So you may not use that code directly. 
+Important note: The solution provided during the class has a subtal bug unfortunately. In particular, is_sorted [5;5;5;5] should return true, whereas the code in the class returned false. So you may not use that code directly. 
 *)
 
 let rec is_sorted (lst:int list): bool = failwith "Not Implemented"
