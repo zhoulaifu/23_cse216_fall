@@ -49,7 +49,7 @@ let expression3 = failwith "Not Implemented"
 Write the function eval: exp -> int, which reduces expressions to integer values:
 *)
 
-let eval (e:exp):int= failwith "Not Implemented"
+let rec eval (e:exp):int= failwith "Not Implemented"
 
 (* Exercise 3 (Points = 20)
 Write the function print : exp -> string , which returns a string representing `e`. The string should print arithmetic operators using infix notation and properly parenthesize expressions. Your solution may be similar to the following examples.
@@ -59,7 +59,7 @@ print (Mul (Add (Int 2, Int 3), Int 5)) produces "((2 + 3) * 5)"
 print (Mul ((Mul (Int 3, Int 0)), Mul (Int 3, Int 5))) produces "((3 * 0) * (3 * 5))"
 *)
 
-let print (e:exp):string = failwith "Not Implemented"
+let rec print (e:exp):string = failwith "Not Implemented"
 
 
 
@@ -71,7 +71,7 @@ Write the function is_sorted: int list -> bool to determine if the integers in a
 Important note: The solution provided during the class has a subtal bug unfortunately. So you may not use that code directly. 
 *)
 
-let is_sorted (lst:int list): bool = failwith "Not Implemented"
+let rec is_sorted (lst:int list): bool = failwith "Not Implemented"
 
 
 
@@ -80,11 +80,11 @@ let is_sorted (lst:int list): bool = failwith "Not Implemented"
 
 *)
 
-let insert_sorted (n:int) (lst:int list) : int list = failwith "Not Implemented"
+let rec insert_sorted (n:int) (lst:int list) : int list = failwith "Not Implemented"
 
 
 (* Exercise 6 (Points = 20)
     Write the insertion_sort: int list->int list function, using `insert_sorted` as a helper.
 *)
 
-let insertion_sorted (lst:int list) : int list = failwith "Not Implemented"
+let rec insertion_sorted (lst:int list) : int list = failwith "Not Implemented"
