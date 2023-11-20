@@ -2,7 +2,7 @@
 
 Homework for week 10. Due: 11:59 pm on Thursday, November 9th, 2023. 
  
-Fill in all the  'failwith "Not Implemented" ' parts of this file, "09.ml", and then submit it on Brightspace. 
+Fill in all the  'failwith "Not Implemented" ' parts of this file, "10.ml", and then submit it on Brightspace. 
 
 
 Special grading criteria:
@@ -87,4 +87,4 @@ let rec insert_sorted (n:int) (lst:int list) : int list = failwith "Not Implemen
     Write the insertion_sort: int list->int list function, using `insert_sorted` as a helper.
 *)
 
-let rec insertion_sorted (lst:int list) : int list = failwith "Not Implemented"
+let rec insertion_sort (lst:int list) : int list = failwith "Not Implemented"
