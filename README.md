@@ -64,7 +64,7 @@ Instructor's Office hours: TU and TH 10:25 - 11:25 at B424
 
 TA office hours:  MO and WE from 10:20 to 12:00 and from 12:50 to 15:25 at CS Lobby
 
-Final: Dec. 11 (Monday) 9:00 - 11:30, at B203
+Final: Dec. 14 (Thursday) 9:00 - 11:30, at B203
 
 
 
